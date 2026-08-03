@@ -1,0 +1,26 @@
+# Python dependencies for the TSO500 ctDNA tissue-of-origin analysis.
+# Versions are unpinned here; to pin to the exact environment used, run
+#   pip freeze > requirements.lock.txt
+# from the analysis conda/venv and cite that file in the paper.
+
+# --- core numerics / ML ---
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+shap
+joblib
+
+# --- plotting ---
+matplotlib
+
+# --- genomics / sequence I/O ---
+pysam
+pyfaidx
+pyBigWig
+pyliftover
+
+# --- document generation (methods / supplementary export) ---
+python-docx
+python-pptx

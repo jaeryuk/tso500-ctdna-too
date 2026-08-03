@@ -1,0 +1,76 @@
+# =====================================================================
+# Data — NEVER commit. Controlled-access patient / cfDNA sequencing data.
+# =====================================================================
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.gvcf
+*.bed.gz
+*.bw
+*.bigWig
+*.bigwig
+
+# Feature matrices / serialized intermediates (regenerable from raw data)
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.parquet
+*.pkl
+*.pickle
+*.feather
+*.rds
+*.RData
+*.mtx
+
+# Large flat tables
+*.tsv.gz
+*.csv.gz
+
+# =====================================================================
+# Credentials / secrets — NEVER commit.
+# =====================================================================
+.ega_credentials.json
+*credential*.json
+*credentials*
+auth.json
+.netrc
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+*.token
+.env
+
+# =====================================================================
+# Logs / scratch / caches
+# =====================================================================
+logs/
+*.log
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+*.bak-*
+_agent_versions/
+.ipynb_checkpoints/
+.DS_Store
+
+# =====================================================================
+# Excluded project data trees (kept out of the code release)
+# =====================================================================
+data/
+intermediate/
+intermediate_bed/
+results/
+external/
+inputs/
