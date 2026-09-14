@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software (this record) and the associated article."
+title: "TSO500 ctDNA tissue-of-origin analysis code (SHAPE and multimodal tissue-of-origin classification)"
+type: software
+version: 1.0.0
+date-released: "2026-09-14"
+repository-code: "https://github.com/jaeryuk/tso500-ctdna-too"
+url: "https://github.com/jaeryuk/tso500-ctdna-too"
+license-url: "https://github.com/jaeryuk/tso500-ctdna-too/blob/main/LICENSE"
+abstract: >-
+  Analysis code for extracting Site-directed High-resolution Analysis of Positional Endpoints
+  and Entropy (SHAPE) features at transcription factor binding sites, together with all-exon
+  depth, exon 1 fragment-length entropy, broad copy-number, and somatic mutation modules, and
+  the late-fusion ensemble used for multimodal tissue-of-origin prediction from routine targeted
+  circulating tumor DNA (TruSight Oncology 500) sequencing. Patent pending; released under a
+  proprietary license for academic verification and reproducibility (see LICENSE).
+keywords:
+  - cell-free DNA
+  - circulating tumor DNA
+  - fragmentomics
+  - transcription factor binding sites
+  - tissue of origin
+  - targeted sequencing
+  - nucleosome positioning
+  - machine learning
+  - liquid biopsy
+  - cancer of unknown primary
+authors: &authors
+  - {family-names: Kim, given-names: Jaeryuk, affiliation: "Department of Laboratory Medicine and Genetics, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Ko, given-names: You-Keun, affiliation: "Department of Laboratory Medicine and Genetics, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Jang, given-names: Seo Yoon, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Shin, given-names: Ji Eun, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Kim, given-names: Junkyu, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Shin, given-names: Junghoon, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Park, given-names: Sehhoon, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Kwon, given-names: Minsuk, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Lim, given-names: Sung Hee, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Jung, given-names: Hyun Ae, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Kang, given-names: Minyong, affiliation: "Department of Urology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Hong, given-names: Jung Yong, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Kim, given-names: Seung Tae, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Sun, given-names: Jong-Mu, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Lee, given-names: Jeeyun, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Um, given-names: Sang-Won, affiliation: "Division of Pulmonary and Critical Care Medicine, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Park, given-names: Se Hoon, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Park, given-names: Yeon Hee, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Seo, given-names: Seong Il, affiliation: "Department of Urology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Lee, given-names: Se-Hoon, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Jeon, given-names: Seong Soo, affiliation: "Department of Urology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Park, given-names: Joon Oh, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Ahn, given-names: Jin Seok, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Park, given-names: Young Suk, affiliation: "Division of Hematology-Oncology, Department of Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+  - {family-names: Kim, given-names: Young-gon, email: younggonn.kim@samsung.com, affiliation: "Department of Laboratory Medicine and Genetics, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Republic of Korea"}
+preferred-citation:
+  type: article
+  title: "Transcription factor-associated fragmentation reveals tissue-of-origin information in clinical targeted circulating tumor DNA sequencing"
+  authors: *authors
+  year: 2026
+  notes: "Manuscript under review at Cell Reports Medicine; update journal, volume, and DOI upon publication."
